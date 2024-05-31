@@ -3,3 +3,14 @@
 @tailwind utilities;
 
 
+/* Add this CSS to your global stylesheet */
+.blur-container {
+  filter: blur(5px);
+  transition: filter 0.3s ease-in-out;
+}
+
+
+
+* {
+  scroll-behavior: smooth;
+}
