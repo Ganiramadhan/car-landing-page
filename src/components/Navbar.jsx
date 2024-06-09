@@ -12,7 +12,7 @@ const Navbar = () => {
     };
 
     return (
-        <nav className="bg-gradient-to-r from-white/80 to-white p-4 shadow-md fixed w-full z-50 transition-colors duration-300">
+        <nav className="bg-gradient-to-r from-white/80 to-white p-4  fixed shadow-md w-full z-50 transition-colors duration-300">
             <div className="container mx-auto flex justify-between items-center">
                 <div className="flex items-center">
                     <img src={logoImage} alt="ganipedia logo" style={{ width: '150px' }} />
